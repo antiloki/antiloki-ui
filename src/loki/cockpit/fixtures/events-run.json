@@ -1,0 +1,22 @@
+[
+ {
+  "seq": 12,
+  "t": 1790836842196,
+  "id": "e1a0f6319ed4-040",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "user",
+   "text": "create the notes file FAKE:write:out/n.txt fx-run"
+  }
+ },
+ {
+  "seq": 13,
+  "t": 1790836842565,
+  "id": "e1a0f631a045-04e",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "run",
+   "run": 4
+  }
+ }
+]

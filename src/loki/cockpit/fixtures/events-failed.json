@@ -1,0 +1,113 @@
+[
+ {
+  "seq": 1,
+  "t": 1790836840627,
+  "id": "e1a0f63198b3-039",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "started",
+   "session_id": "c10d4314-4007-40ae-ab1d-5d482785dff0",
+   "model": null,
+   "pid": 710537,
+   "engine": "claude-code"
+  }
+ },
+ {
+  "seq": 2,
+  "t": 1790836840647,
+  "id": "e1a0f63198c7-03a",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "role",
+   "text": "Backender \u2014 same engine, so the work moves across without a restart, with Backender's skills and specialists swapped in",
+   "role": "backender"
+  }
+ },
+ {
+  "seq": 3,
+  "t": 1790836840654,
+  "id": "e1a0f63198ce-03b",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "user",
+   "text": "FAKE:error please fail"
+  }
+ },
+ {
+  "seq": 4,
+  "t": 1790836840654,
+  "id": "e1a0f63198ce-03c",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "context",
+   "used": [
+    {
+     "kind": "agent",
+     "label": "the chat of the agent chats (box 2)",
+     "ref": "agent:2",
+     "why": "3 matches",
+     "md": "",
+     "chars": 70
+    },
+    {
+     "kind": "agent",
+     "label": "the chat of the agent chats (box 1)",
+     "ref": "agent:1",
+     "why": "3 matches",
+     "md": "",
+     "chars": 360
+    }
+   ],
+   "chars": 791
+  }
+ },
+ {
+  "seq": 5,
+  "t": 1790836840661,
+  "id": "e1a0f63198d5-03d",
+  "ev": {
+   "type": "system",
+   "subtype": "init",
+   "session_id": "a1a22530-ca72-4a57-90ae-63f6f79e08fb",
+   "model": "fake-sonnet",
+   "cwd": "/work/chats/3",
+   "tools": []
+  }
+ },
+ {
+  "seq": 6,
+  "t": 1790836840759,
+  "id": "e1a0f6319937-03e",
+  "ev": {
+   "type": "antiloki",
+   "subtype": "audit",
+   "model": "fake-sonnet",
+   "engine": "claude-code",
+   "ms": 7,
+   "tokens": 120,
+   "cost": 0.0006,
+   "baseline": "claude \u00b7 opus",
+   "baseline_usd": 0.001,
+   "saved_usd": 0.0004000000000000001
+  }
+ },
+ {
+  "seq": 7,
+  "t": 1790836840760,
+  "id": "e1a0f6319938-03f",
+  "ev": {
+   "type": "result",
+   "subtype": "error_during_execution",
+   "is_error": true,
+   "result": "the fake seat failed on purpose",
+   "session_id": "a1a22530-ca72-4a57-90ae-63f6f79e08fb",
+   "total_cost_usd": 0,
+   "usage": {
+    "input_tokens": 100,
+    "output_tokens": 20,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+   }
+  }
+ }
+]

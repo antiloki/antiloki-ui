@@ -1,0 +1,38 @@
+
+!.vscode/extensions.json
+# Editor directories and files
+# Logs
+# Playwright (FEAT-FE-E2E-PLAYWRIGHT-SCAFFOLD)
+# Wrangler / Cloudflare
+*.local
+*.log
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw?
+.DS_Store
+.dev.vars
+.idea
+.nitro
+.output
+.tanstack/**
+.vinxi
+.vscode/*
+.wrangler/
+/playwright-report/
+/playwright/.cache/
+/test-results/
+dist
+dist-ssr
+lerna-debug.log*
+logs
+node_modules
+npm-debug.log*
+playwright-report/
+pnpm-debug.log*
+test-results/
+yarn-debug.log*
+yarn-error.log*
+coverage/
+dist-app
